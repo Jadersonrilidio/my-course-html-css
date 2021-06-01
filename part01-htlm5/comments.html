@@ -1,0 +1,57 @@
+<b></b> <strong></strong> <!-- bold letters -->
+<i></i> <em></em> <!-- italic letters -->
+<u></u> <!-- underline text -->
+<strike></strike> <!-- wrong lined text -->
+
+<p></p> <!-- paragraph -->
+<hr> <!-- horizontal line -->
+<br> <!-- break -->
+
+<ul type="circle disc square"></ul> <!-- unordered list -->
+<li></li> <!-- list item -->
+	<!-- type="circle square disc" - type defines the format of the marker used -->
+
+<ol type-="1 A a I i"></ol> <!-- ordered list -->
+<li></li> <!-- list item -->
+	<!-- type="1 A a I i" - type defines the count system format for the list -->
+ 
+<img src="image source, from PC or URL" width="horizontal size" height="vertical size">
+	<!-- use URl sources is not encouraged due to unavailability from changings on the url -->
+	<!-- use both width and height could lead to distorded img, we better use only one then let the html justify -->
+	<!-- width and height could be defined in Pixels or Percentage of the space -->
+
+<a href=""></a> <!-- anchor -->
+
+<table border="2" width="300"></table> <!-- tables -->
+	<!-- border defined in pixels -->
+	<!-- width could be define in Pixels or Percentage -->
+<th></th> <!-- table header -->
+<tr></tr> <!-- table row -->
+<td colspan="1" rowspan="1"></td> <!-- table data -->
+	<!-- table data represent the columns or cells of the table -->
+	<!-- colspan defines how many columns or percentage of the space a cell fills -->
+	<!-- rowspan defines how many rows or percentage of the space a cell fills -->
+
+<form action="backend.php"></form> <!-- form type markup -->
+	<!-- keyword action points the php archive where the input collected will be treated -->
+<input type="text password button submit" name="variable to connect with backend part">
+	<!-- type text = the input is a string -->
+	<!-- type password = the imput is a string, hidden from the frontend -->
+	<!-- type button = button to click and execute an action -->
+	<!-- type submit = button to submit the form input to a backend part -->
+
+<input type="radio" name="" value="value (string) to be sent to backend">
+	<!-- radio button = only one option can be choosen -->
+<input type="checkbox" name="">
+	<!-- checkboxex = square options to mark as you wish -->
+
+<select name=""> <!-- selection menu -->
+<option value=""></option> <!-- option from the select menu -->
+	<!-- keyword value is passed to backend to proccess -->
+
+<textarea></textarea> <!-- text area to type a phrase or whole text -->
+
+<!-- ENTITIES HTML - https://www.w3schools.com/html/html_entities.asp -->
+<!-- Entities can be represented by Entity Name or Entity Number, as you wish, and they are usefull
+	for representing the characters that are considered to be html 'pieces', as well to represent
+	features, as double or greater space, the symbols < > and much more -->
