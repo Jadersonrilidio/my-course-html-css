@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+
+        <style>
+
+            body {
+                font-size: 24px;
+            }
+
+            .main {
+                border: 1px solid orange;
+                background-color: orange;
+            }
+
+            .content {
+                background: blue;
+                border: 1px solid gray;
+                width: 200px;
+                height: 200px;
+                float: left;
+                margin: 20px;
+            }
+
+            .content1 {
+                background: red;
+                border: 1px solid gray;
+                width: 200px;
+                height: 200px;
+                float: left;  /*left, right, none*/
+                margin: 20px;
+            }
+
+            .clear {
+                clear: left; /*left, right, both, none*/
+            }
+
+            .with-borders{
+                border: 1px solid red;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        
+        <div class="main">
+
+            <div class="content1">
+                Content 1
+            </div>
+
+            <div class="content">
+                Content 2
+            </div>
+
+            <div class="content">
+                Content 3
+            </div>
+
+            <p class="with-borders">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptate earum possimus reprehenderit consequatur soluta amet reiciendis. Delectus quia id dolores cupiditate, non corporis quam beatae ab incidunt, exercitationem dignissimos!
+            </p>
+
+            <div class="clear"></div>
+
+        </div>  
+
+        <p class="with-borders">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptate earum possimus reprehenderit consequatur soluta amet reiciendis. Delectus quia id dolores cupiditate, non corporis quam beatae ab incidunt, exercitationem dignissimos!
+        </p>
+
+    </body>
+
+</html>

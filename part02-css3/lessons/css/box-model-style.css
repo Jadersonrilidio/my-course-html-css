@@ -1,0 +1,17 @@
+.content {
+    border: 1px solid orangered;
+    /*padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;*/
+    padding: 20px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 20px; 
+}
+
+.header1 {
+    border: 1px solid orangered;
+    width: 300px;
+    margin-left: 20px;
+}

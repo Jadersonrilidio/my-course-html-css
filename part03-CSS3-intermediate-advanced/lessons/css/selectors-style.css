@@ -1,0 +1,19 @@
+/****** UNIVERSAL SELECTOR ******/
+
+* {
+    border: 1px solid red;
+}
+
+/****** TEXT SELECTOR ******/
+
+body {
+    
+}
+
+h1 {
+    background: green;
+}
+
+p {
+    background: blue;
+}

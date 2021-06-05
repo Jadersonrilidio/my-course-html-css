@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: gray;
+    width: 1200px;
+    height: 400px;
+    margin: 30px auto;
+}
+#div100 {
+    background: green;
+    width: 33%;
+    height: 100%;
+    float: left;
+}
+#div200 {
+    background: orange;
+    width: 33%;
+    height: 100%;
+    float: left;
+}
+#div300 {
+    background: yellow;
+    width: 33%;
+    height: 100%;
+    float: left;
+}
+
+#div110 {
+    background: blue;
+    width: 100%;
+    height: 33%;
+    float: left;
+}
+#div120 {
+    background: rgb(53, 53, 252);
+    width: 100%;
+    height: 33%;
+    float: left;
+}
+#div130 {
+    background: rgb(116, 116, 248);
+    width: 100%;
+    height: 34%;
+    float: left;
+}
+
+#div111 {
+    background: red;
+    width: 33%;
+    height: 100%;
+    float: left;
+}
+#div112 {
+    background: rgb(250, 38, 38);
+    width: 33%;
+    height: 100%;
+    float: left;
+}
+#div113 {
+    background: rgb(245, 98, 98);
+    width: 34%;
+    height: 100%;
+    float: left;
+}
+
+#div210 {
+    background: green;
+    width: 33%;
+    height: 100%;
+    float: left;
+}
+#div220 {
+    background: rgb(38, 192, 38);
+    width: 33%;
+    height: 100%;
+    float: left;
+}
+#div230 {
+    background: rgb(86, 240, 86);
+    width: 34%;
+    height: 100%;
+    float: left;
+}
+
+#div231 {
+    background: lightblue;
+    width: 100%;
+    height: 33%;
+    float: left;
+}
+#div232 {
+    background: rgb(128, 202, 226);
+    width: 100%;
+    height: 33%;
+    float: left;
+}
+#div233 {
+    background: rgb(62, 181, 221);
+    width: 100%;
+    height: 34%;
+    float: left;
+}

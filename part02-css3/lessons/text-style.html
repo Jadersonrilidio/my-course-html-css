@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Text style</title>
+        <meta charset="UTF-8">
+
+        <style type="text/css">
+
+            body {
+                font-size: 40px;
+                font-family:'Times New Roman', Times, serif;
+            }
+
+            .bold {
+                /*normal, bold, 100-900, */
+                font-weight: 900;
+            }
+
+            .italic {
+                font-style: italic;
+            }
+
+            .formated {
+                /*underline, overline, line-through*/
+                text-decoration: underline overline line-through;
+            }
+
+            .text-formater {
+                /* font: weight, size, style, family*/
+                font: bold 40px "Times New Roman", Times, Serif ;
+            }
+
+        </style>
+    </head>
+
+    <body>
+       
+        <p>bold text</p>
+        <p class="bold">bold text</p>
+        <p class="italic">italic text</p>
+        <p class=formated>formated text</p>
+        <p class="text-formater">text here</p>
+
+    </body>
+</html>
