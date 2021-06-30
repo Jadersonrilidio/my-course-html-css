@@ -1,0 +1,59 @@
+:root {
+    background: darkblue;
+}
+
+body {
+    background: white;
+    width: 60%;
+    max-width: 420px;
+    min-width: 300px;
+    margin: 100px auto;
+    padding: 15px 0px 15px 0px;
+    border-radius: 30px;
+}
+body:hover {
+    box-shadow: 5px 5px 5px black;
+}
+
+#form-box {
+    width: 90%;
+    margin: 0px auto;
+}
+
+#form-box h2 {
+    text-align: center;
+    color: darkblue
+}
+
+#phys-address-box, #gps-location-box, #region-box {
+    margin-top: 10px;
+    margin-bottom: 10px;;
+}
+#phys-address-box label, #gps-location-box label, #region-box label {
+    width: 30%;
+    display: inline-block;
+    color: darkblue;
+}
+#phys-address-box input, #gps-location-box input, #region-box input {
+    width: 60%;
+    display: inline-block;
+}
+
+#btn {
+    width: 40%;
+    background: darkblue;
+    color: white;
+    border-radius: 5px;
+    line-height: 25px;
+    transform: translateX(70%);
+    margin: 20px auto;
+}
+
+#btn:hover {
+    background: rgb(32, 32, 189);
+    box-shadow: 2px 2px 2px black;
+}
+#btn:active {
+    background: rgb(1, 1, 102);
+    color: white;
+}
